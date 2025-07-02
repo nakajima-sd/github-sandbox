@@ -2,6 +2,8 @@ package hello
 
 import "fmt"
 
-func Hello() {
+func Hello() bool {
 	fmt.Println("Hello, world!!")
+	return true
 }
+
