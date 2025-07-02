@@ -1,4 +1,4 @@
-name: "CI: Go"
+name: "CI: Bye"
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    name: Go Test
+    name: Bye Test
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout

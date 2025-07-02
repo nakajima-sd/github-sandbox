@@ -3,7 +3,8 @@ package hello
 import "fmt"
 
 func Hello() bool {
-	fmt.Println("Hello, world!!")
-	return true
+	ok := true
+	fmt.Printf("Hello, world!! ok is %t\n", ok)
+	return ok
 }
 
