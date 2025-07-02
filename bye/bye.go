@@ -3,7 +3,8 @@ package bye
 import "fmt"
 
 func Bye() bool {
-	fmt.Println("Bye, world!!")
-	return false
+	ok := false
+	fmt.Printf("Bye, world!! ok is %t\n", ok)
+	return ok
 }
 
